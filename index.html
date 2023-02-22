@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="assets/css/colors.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <main class="content">
+        <div class="content-wrapper">
+            <div class="content-result">
+                <h1 class="content-result__title">Your Result</h1>
+                <div class="content-result__score">
+                    <div class="content-result__score--circle">
+                        <h2 class="content-result__score--result">76</h2>
+                        <p class="content-result__score--overall">of 100</p>
+                    </div>
+                </div>
+                <div class="content-result__description">
+                    <h1 class="content-result__description--title">Great</h1>
+                    <p class="content-result__description--subtitle">You scored higher than 65% of the people who have taken these tests.</p>
+                </div>
+            </div>
+            <div class="content-summary">
+                <h1 class="content-summary__title">Summary</h1>
+                <div class="content-summary__score">
+                    <div class="content-summary__score--list score-reaction">
+                        <div class="content-summary__score--list__title">
+                            <img class="title--icon" src="assets/images/icon-reaction.svg" alt="Reaction" title="Reaction">
+                            <p class="title--text">Reaction</p>
+                        </div>
+                        <p class="content-summary__score--list__score"><span class="score--list__score--result">80</span> / 100</p>
+                    </div>
+                    <div class="content-summary__score--list score-memory">
+                        <div class="content-summary__score--list__title">
+                            <img class="title--icon" src="assets/images/icon-memory.svg" alt="Memory" title="Memory">
+                            <p class="title--text">Memory</p>
+                        </div>
+                        <p class="content-summary__score--list__score"><span class="score--list__score--result">92</span> / 100</p>
+                    </div>
+                    <div class="content-summary__score--list score-verbal">
+                        <div class="content-summary__score--list__title">
+                            <img class="title--icon" src="assets/images/icon-verbal.svg" alt="Verbal" title="Verbal">
+                            <p class="title--text">Verbal</p>
+                        </div>
+                        <p class="content-summary__score--list__score"><span class="score--list__score--result">92</span> / 100</p>
+                    </div>
+                    <div class="content-summary__score--list score-visual">
+                        <div class="content-summary__score--list__title">
+                            <img class="title--icon" src="assets/images/icon-visual.svg" alt="Visual" title="Visual">
+                            <p class="title--text">Visual</p>
+                        </div>
+                        <p class="content-summary__score--list__score"><span class="score--list__score--result">61</span> / 100</p>
+                    </div>
+                </div>
+                <div class="content-summary__action">
+                    <a href="#" class="btn btn--continue">Continue</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        <br>Coded by <a href="https://tlaksono.my.id/" target="_blank">Tito Laksono</a>.
+    </footer>
+</body>
+</html>
