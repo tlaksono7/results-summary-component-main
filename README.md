@@ -44,5 +44,5 @@ I learn how to make border-radius only on bottom side
 ## Author
 
 - Website - [Tito Laksono](https://www.tlaksono.my.id)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/tlaksono7)
-- Twitter - [@yourusername](https://www.twitter.com/_titolaksono)
+- Frontend Mentor - [@tlaksono7](https://www.frontendmentor.io/profile/tlaksono7)
+- Twitter - [@_titolaksono_](https://www.twitter.com/_titolaksono)
